@@ -1,0 +1,26 @@
+cost-groups:
+  ARMOR: 1000
+  WEAPON: 1500
+  TOOL: 800
+  OTHER: 500
+
+gui:
+  title: "&bEnchant Transfer"
+  size: 9
+  slot-item1: 2
+  slot-item2: 6
+  slot-info: 4
+  slot-confirm: 7
+
+background:
+  material: BLACK_STAINED_GLASS_PANE
+  name: "&r"
+  lore: []
+
+confirm-item:
+  material: EMERALD
+
+info-item:
+  material: PAPER
+
+close-on-success: true

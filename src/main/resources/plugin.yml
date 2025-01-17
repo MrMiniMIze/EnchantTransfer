@@ -1,0 +1,17 @@
+name: EnchantTransfer
+main: me.minimize.EnchantTransferPlugin
+version: 1.0.0
+author: MiniMize & MiniMize0x
+api-version: 1.19
+
+commands:
+  etransfer:
+    description: Opens the Enchant Transfer GUI
+    usage: /etransfer
+    aliases: [enchanttransfer]
+    permission: enchanttransfer.use
+
+permissions:
+  enchanttransfer.use:
+    description: Allows a player to use /etransfer
+    default: true  # or 'op' or 'false' depending on your preference
