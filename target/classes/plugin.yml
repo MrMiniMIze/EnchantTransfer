@@ -1,0 +1,21 @@
+name: EnchantTransfer
+main: me.minimize.EnchantTransferPlugin
+version: 1.0.0
+author: MiniMize
+api-version: 1.19
+
+commands:
+  etransfer:
+    description: Opens the Enchant Transfer GUI or reloads the plugin
+    usage: /etransfer [reload]
+    aliases: [enchanttransfer]
+    permission: enchanttransfer.use
+
+permissions:
+  enchanttransfer.use:
+    description: Allows using /etransfer to open the GUI
+    default: true
+
+  enchanttransfer.reload:
+    description: Allows /etransfer reload to reload config
+    default: op

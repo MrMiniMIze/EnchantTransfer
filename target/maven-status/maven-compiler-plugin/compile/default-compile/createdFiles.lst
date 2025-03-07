@@ -1,0 +1,8 @@
+me/minimize/util/MessageUtil.class
+me/minimize/EnchantTransferPlugin.class
+me/minimize/listeners/InventoryCloseListener.class
+me/minimize/commands/EnchantTransferCommand.class
+me/minimize/util/YamlLoader.class
+me/minimize/gui/EnchantTransferGUI.class
+me/minimize/util/EconomyUtil.class
+me/minimize/manager/EnchantTransferManager.class

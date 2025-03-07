@@ -1,0 +1,32 @@
+cost-groups:
+  ARMOR: 1000
+  WEAPON: 1500
+  TOOL: 800
+  PAPER: 1200
+  OTHER: 500
+
+gui:
+  title: "&bEnchant Transfer"
+  size: 9
+  slot-item1: 2
+  slot-item2: 6
+  slot-info: 4
+  slot-confirm: 7
+
+background:
+  material: BLACK_STAINED_GLASS_PANE
+  name: "&r"
+  lore: []
+  custom-model-data: 12345  # OPTIONAL, only if you want a specific CMD
+
+info-item:
+  material: PAPER
+  custom-model-data: 11111  # OPTIONAL, can remove if you don't need
+  # name/lore can go in messages.yml or be handled in code
+
+confirm-item:
+  material: EMERALD
+  custom-model-data: 22222  # OPTIONAL
+  # name/lore in messages.yml
+
+close-on-success: true

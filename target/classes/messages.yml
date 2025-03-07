@@ -1,0 +1,19 @@
+insufficient-funds: "&cYou need &f%cost% &cto transfer these enchants, but you only have &f%balance%!"
+transfer-success: "&aSuccessfully transferred all enchants for &f%cost%!"
+no-enchants: "&cNo enchants found on the first item!"
+incompatible-enchant: "&cOne or more enchants are not compatible with the second item!"
+confirm-button-name: "&a[ Confirm ]"
+confirm-button-lore:
+  - "&7Click to confirm the transfer!"
+  - "&7Cost: %cost%"
+
+info-item-name: "&eTransfer Information"
+info-item-lore:
+  - "&7Enchant Count: %count%"
+  - "&7Total Cost: %cost%"
+  - ""
+  - "&eSlot #2 = item1, slot #6 = item2."
+  - "&ePress confirm to finalize."
+
+disallowed-item: "&cThat item isn't allowed in this transfer!"
+reload-complete: "&aEnchantTransfer config and messages reloaded!"
